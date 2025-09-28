@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.27)  27 SEP 2025 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.27)  28 SEP 2025 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,47 +970,47 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 )) (./main_compact.aux)
 \openout1 = `main_compact.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 135.
+LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 143.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-35.
+43.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/lmsy/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMS/lmsy/m/n on input line 143.
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-135.
+143.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/lmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OT1/lmr/m/n on input line 143.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-35.
+43.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/lmex/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMX/lmex/m/n on input line 143.
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-135.
+143.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1068,7 +1068,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 143.
 (./main_compact.out) (./main_compact.out)
 \@outlinefile=\write4
 \openout4 = `main_compact.out'.
@@ -1084,21 +1084,21 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    Font shape `T1/clm2j/b/sc' in size <12> not available
-(Font)              Font shape `T1/clm2j/bx/sc' tried instead on input line 153
+(Font)              Font shape `T1/clm2j/bx/sc' tried instead on input line 159
 .
 LaTeX Font Info:    Font shape `T1/clm2j/bx/sc' in size <12> not available
-(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 153.
+(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 159.
 
 
-Overfull \hbox (79.39932pt too wide) in alignment at lines 162--162
+Overfull \hbox (79.39932pt too wide) in alignment at lines 168--168
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/clm2j/b/n' in size <9> not available
-(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 174.
+(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 200.
 
 LaTeX Font Info:    Trying to load font information for TS1+clm2j on input line
- 231.
+ 258.
 (/usr/share/texlive/texmf-dist/tex/latex/cfr-lm/ts1clm2j.fd
 File: ts1clm2j.fd 2008/02/13 Fontinst v1.928 font definitions for TS1/clm2j.
 )
@@ -1116,13 +1116,13 @@ fr-lm/dotdigits-clm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawes
 ome5/fa5free1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
 e/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
 
-! LaTeX Error: \begin{itemize} on input line 225 ended by \end{document}.
+! LaTeX Error: \begin{itemize} on input line 252 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 \end{document}
+l.281 \end{document}
                     
 ? 
 (./main_compact.aux)
@@ -1135,29 +1135,29 @@ Package rerunfilecheck Info: File `main_compact.out' has not changed.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 225 (\begingroup)
-### semi simple group (level 1) entered at line 213 (\begingroup)
+### semi simple group (level 2) entered at line 252 (\begingroup)
+### semi simple group (level 1) entered at line 239 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32962 strings out of 474222
- 660857 string characters out of 5748733
- 1956975 words of memory out of 5000000
- 54635 multiletter control sequences out of 15000+600000
- 617297 words of font info for 83 fonts, out of 8000000 for 9000
+ 32969 strings out of 474222
+ 660936 string characters out of 5748733
+ 1960975 words of memory out of 5000000
+ 54639 multiletter control sequences out of 15000+600000
+ 621100 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,11n,99p,433b,784s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,11n,99p,433b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/
 FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.
-pfb>
-Output written on main_compact.pdf (1 page, 243604 bytes).
+/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb>
+Output written on main_compact.pdf (1 page, 274279 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 164 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  7 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

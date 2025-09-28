@@ -127,22 +127,28 @@
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
 \newcommand{\name}{Keegan Smith} % Your Name
 \newcommand{\phone}{(832) 773-8754} % Your Phone Number
-\newcommand{\emaila}{keeganasmith2003@gmail.com} %Email 1
-\newcommand{\websitea}{https://keegancodes.com} % change me
-\newcommand{\websitetext}{keegancodes.com}      % how it displays
+\newcommand{\emaila}{keeganasmith2003@gmail.com} % Email
+
+% Website 1
+\newcommand{\siteoneurl}{https://keegancodes.com}
+\newcommand{\siteonetext}{keegancodes.com}
+
+% Website 2
+\newcommand{\sitetwourl}{https://github.com/keeganasmith}
+\newcommand{\sitetwotext}{github.com/keeganasmith}
+
 \setlength{\parskip}{0pt}\setlength{\parindent}{0pt}
 \renewcommand{\arraystretch}{0.95}
+
 \begin{document}
 \fontsize{10}{12}\selectfont
-%----------HEADING-----------------
 
-%\parbox{2.35cm}{%
-%\includegraphics[width=2.38cm,clip]{logosystem-flame-2022-600x250.jpg}}
-%\parbox{\dimexpr\linewidth-2.8cm\relax}{
-\begin{tabularx}{\linewidth}{L r} \\
-  \textbf{\Large \name} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +1 \phone}\\
-   & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ \emaila} \\
-   & \href{\websitea}{\raisebox{0.0\height}{\footnotesize \faGlobe}\ \websitetext} \\
+\begin{tabularx}{\linewidth}{L r}
+  \textbf{\Large \name} &
+  {\raisebox{0.0\height}{\footnotesize \faPhone}\ +1 \phone}\\
+  & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ \emaila} \\
+  & \raisebox{0.0\height}{\footnotesize \faGlobe}\ 
+    \href{\siteoneurl}{\siteonetext} \,|\, \href{\sitetwourl}{\sitetwotext} \\
 \end{tabularx}
 %}
 % \parbox{3.0cm}{%
@@ -155,13 +161,33 @@
 \begin{minipage}[t]{0.48\textwidth}
 \begin{tabularx}{\linewidth}{@{}l r@{}}
   \textbf{Texas A\&M University — College Station, TX} & \\[1pt]
-  \textit{Bachelor of Science — Computer Science} & \textit{Aug 2021 — Dec 2024} \\
-  GPA: 4.0 & \\[2pt]
   \textit{Master of Science — Computer Science} & \textit{Jan 2025 — May 2026} \\
   GPA: 3.8 & \\
+  \textit{Bachelor of Science — Computer Science} & \textit{Aug 2021 — Dec 2024} \\
+  GPA: 4.0 & \\[2pt]
 \end{tabularx}
 \end{minipage}\hfill
-  \vspace{-3mm}
+
+% ---- Full-width coursework table ----
+\vspace{2pt}
+\noindent\setlength{\tabcolsep}{4pt}%
+\renewcommand{\arraystretch}{0.95}%
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X
+                          >{\raggedright\arraybackslash}X
+                          >{\raggedright\arraybackslash}X@{}}
+  \multicolumn{3}{@{}l}{\footnotesize\textbf{Selected Coursework:}}\\[-0.35ex]
+  \footnotesize Quantum Algorithms
+  & \footnotesize Deep Learning (PyTorch, Tensorflow, Pandas)
+  & \footnotesize Software Engineering (Ruby on Rails) \\
+  \footnotesize Computer Architecture (C++)
+  & \footnotesize Parallel Algorithms (C++, Open MPI, YGM)
+  & \footnotesize Computer Networking (Visual C++) \\
+  \footnotesize Operating Systems (C++)
+  & \footnotesize Machine Learning (PyTorch) 
+  & \footnotesize Programming Languages (Java, Scheme) \\
+\end{tabularx}
+
+\vspace{-3mm}
 
 %-----------EXPERIENCE-----------------
 \section{\textbf{Work Experience}}
@@ -213,11 +239,12 @@
 \resumeSubHeadingListStart
     \resumeSubheading
       {Parallel Bridge Finding}{}
-      {Texas A\&M University}{January 2025 - Present}
+      {Texas A\&M University, under Dr. Roger Pearce}{January 2025 - Present}
       \vspace{-0.7mm}
       \resumeItemListStart
       \item{Developed and iterated upon a novel parallel bridge finding algorithm (graph theory)}
       \item{Achieved near linear scaling up to 768 cores - 15.36 times as many cores as the current literature supports}
+      \item{Distributed computing on Lawrence Livermore National Labs systems, notably Dane}
       \item{Implemented in C++ using the YGM library (built on OpenMPI)}
 \resumeItemListEnd
 \vspace{-6.2mm}
@@ -229,9 +256,10 @@
       \vspace{-0.7mm}
       \resumeItemListStart
       	\item{Optimized an existing temporal frequency analysis algorithm for CPU, GPU, and FPGA architectures}
+        \item{Won 3rd place in the Texas A\&M Engineering Project Showcase Fall 2024}
 	\item{Our GPU implementation achieved the highest throughput, achieving a 125x throughput improvement over the original FPGA implementation}
 	\item{Increased throughput of FPGA implementation by 4.23x}
-	\item{Won 3rd place in the Texas A\&M Engineering Project Showcase Fall 2024}
+	
 	\item{Used C++, Vitis HLS, CUDA, OpenMP, JavaScript, Express.js, React.js}
 
 \resumeItemListEnd
@@ -241,8 +269,8 @@
 
 \begin{multicols}{2}
 %\textbf{Cluster Mgmt:} xCAT, BCM, Slurm, Kubernetes, Lmod, EasyBuild, OOD \\
-\textbf{DevOps:} Docker, Singularity, Github Actions, Git, GitHub \\
-\textbf{Skills:} C++, Python, Java, Bash; CUDA, Open~MP, Open~MPI, Slurm, YGM; Docker, Singularity, Linux, RHEL 8; Flask, Vue.js, Express/React, Vim\\
+\textbf{DevOps:} Docker, Singularity, Github Actions, Git, GitHub, CI/CD \\
+\textbf{Skills:} C++, Python, Java, Bash; CUDA, Open~MP, Open~MPI, Slurm, YGM; Docker, Singularity, Linux, RHEL 8; Flask, Vue.js, Express.js, React.js, Vim, JSON\\
 
 \textbf{Methodologies:} Agile, Waterfall, Object Oriented Programming, Functional Programming, REST APIs
 %\textbf{Docs:} \LaTeX
