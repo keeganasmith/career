@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  2 OCT 2025 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  18 NOV 2025 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1117,14 +1117,6 @@ Overfull \hbox (79.39932pt too wide) in alignment at lines 168--168
 LaTeX Font Info:    Font shape `T1/clm2j/b/n' in size <9> not available
 (Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 200.
 
-LaTeX Font Info:    Trying to load font information for TS1+clm2j on input line
- 258.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/cfr-lm/ts1clm2j.fd
-File: ts1clm2j.fd 2008/02/13 Fontinst v1.928 font definitions for TS1/clm2j.
-)
-Overfull \vbox (2.7493pt too high) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -1137,55 +1129,36 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/local/texliv
 e/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive
 /2024/texmf-dist/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc}{/usr/local/texlive/2
 024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/20
-24/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-d
-ist/fonts/enc/dvips/lm/lm-ts1.enc}]
-
-./main_compact.tex:281: LaTeX Error: \begin{itemize} on input line 252 ended by
- \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{document}
-                    
-? 
-(./main_compact.aux)
+24/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] (./main_compact.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main_compact.out' has not changed.
 (rerunfilecheck)             Checksum: 68AA331FF664D85D9F205AD1E264A67B;501.
- )
-(\end occurred inside a group at level 2)
-
-### semi simple group (level 2) entered at line 252 (\begingroup)
-### semi simple group (level 1) entered at line 239 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 32979 strings out of 474116
- 663478 string characters out of 5743682
+ 32934 strings out of 474116
+ 662380 string characters out of 5743682
  1964187 words of memory out of 5000000
- 54752 multiletter control sequences out of 15000+600000
- 621100 words of font info for 86 fonts, out of 8000000 for 9000
+ 54712 multiletter control sequences out of 15000+600000
+ 620730 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,11n,99p,433b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawes
-ome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
-/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm
-/lmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx8.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texmf-di
-st/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
-e1/public/lm/lmri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
-lm/lmri8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy5.pf
-b>
-Output written on main_compact.pdf (1 page, 274329 bytes).
+ 93i,11n,99p,433b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
+me5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmb
+x10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/t
+exlive/2024/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
+/public/lm/lmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
+mri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri8.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy5.pfb>
+Output written on main_compact.pdf (1 page, 272908 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 159 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
