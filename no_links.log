@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  18 NOV 2025 15:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  18 NOV 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1127,59 +1127,36 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/local/texliv
 e/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive
 /2024/texmf-dist/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc}{/usr/local/texlive/2
 024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/20
-24/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[2]
-
-./no_links.tex:282: LaTeX Error: \begin{itemize} on input line 253 ended by \en
-d{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.282 \end{document}
-                    
-? 
-(./no_links.aux)
+24/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] (./no_links.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `no_links.out' has not changed.
 (rerunfilecheck)             Checksum: 68AA331FF664D85D9F205AD1E264A67B;501.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 253 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 32935 strings out of 474116
- 662310 string characters out of 5743682
- 1961187 words of memory out of 5000000
- 54712 multiletter control sequences out of 15000+600000
+ 32932 strings out of 474116
+ 662284 string characters out of 5743682
+ 1964187 words of memory out of 5000000
+ 54710 multiletter control sequences out of 15000+600000
  620730 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,11n,99p,429b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawes
-ome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
-/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm
-/lmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx8.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texmf-di
-st/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
-e1/public/lm/lmri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
-lm/lmri8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy5.pf
-b>
-Output written on no_links.pdf (2 pages, 273359 bytes).
+ 93i,11n,99p,429b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
+me5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmb
+x10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/t
+exlive/2024/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
+/public/lm/lmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
+mri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri8.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy5.pfb>
+Output written on no_links.pdf (1 page, 272837 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 8 named destinations out of 1000 (max. 500000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
