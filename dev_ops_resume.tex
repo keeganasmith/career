@@ -1,0 +1,280 @@
+%-------------------------
+% Resume in Latex
+% Author: Chegwidden
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.25cm, top=0.7cm, right=1.05cm, bottom=0.8cm}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\fontsize{10}{12}\selectfont\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\fontsize{10}{12}\selectfont\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]\fontsize{10}{12}\selectfont}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]\fontsize{10}{12}\selectfont}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\fontsize{10}{12}\selectfont\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{Keegan Smith} % Your Name
+\newcommand{\phone}{(832) 773-8754} % Your Phone Number
+\newcommand{\emaila}{keeganasmith2003@gmail.com} % Email
+
+% Website 1
+\newcommand{\siteoneurl}{https://keegancodes.com}
+\newcommand{\siteonetext}{keegancodes.com}
+
+% Website 2
+\newcommand{\sitetwourl}{https://github.com/keeganasmith}
+\newcommand{\sitetwotext}{github.com/keeganasmith}
+
+\setlength{\parskip}{0pt}\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{0.95}
+
+\begin{document}
+\fontsize{10}{12}\selectfont
+
+\begin{tabularx}{\linewidth}{L r}
+  \textbf{\Large \name} &
+  {\raisebox{0.0\height}{\footnotesize \faPhone}\ +1 \phone}\\
+  & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ \emaila} \\
+  & \raisebox{0.0\height}{\footnotesize \faGlobe}\ 
+    \href{\siteoneurl}{\siteonetext} \,|\, \href{\sitetwourl}{\sitetwotext} \\
+\end{tabularx}
+%}
+% \parbox{3.0cm}{%
+% \flushright \includegraphics[width=2cm,clip]{nitp_logo.png}
+% }
+
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+\vspace{-1.5mm}
+\begin{minipage}[t]{0.48\textwidth}
+\begin{tabularx}{\linewidth}{@{}l r@{}}
+  \textbf{Texas A\&M University — College Station, TX} & \\[4pt]
+
+  \textit{Master of Science — Computer Science \hspace{2mm} | \hspace{2mm} GPA: 3.9}
+  & \textit{Jan 2025 — May 2026} \\[4pt]
+
+  \textit{Bachelor of Science — Computer Science \hspace{2mm} | \hspace{2mm} GPA: 4.0}
+  & \textit{Aug 2021 — Dec 2024} \\[2pt]
+\end{tabularx}
+\end{minipage}\hfill
+
+
+% ---- Full-width coursework table ----
+\vspace{0.4mm}
+{\footnotesize\textbf{Selected Coursework:} Operating Systems, Computer Networking, Parallel Algorithms, Software Engineering, Machine Learning, Deep Learning}
+\vspace{-3.5mm}
+
+% -----------WORK EXPERIENCE-----------------
+\section{\textbf{Work Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {High Performance Computing (HPC) Software Engineer}{College Station, TX}
+  {Texas A\&M University High Performance Research Computing}{May 2023 -- Present}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Benchmarked multi-core FFT and sparse matrix multiplication (\textbf{FFTW}, \textbf{oneMKL}) in C++ on Intel Optane configured as swap; analyzed performance tradeoffs for memory-bound HPC workloads}
+    \item{Migrated Fermilab FPGA software simulation workflows from Kubernetes to Slurm, improving reproducibility and reducing researcher setup overhead}
+    \item{Built an Open OnDemand interactive app for distributed local LLM inference across multi-node jobs using Python (4 Intel GPU Max 1100s per node)}
+    \item{Shipped an Open OnDemand app to automate ML pipelines with \textbf{AutoGluon} on Slurm; standardized job specifications and reduced experiment setup time}
+    \item{Automated ticketing workflows by integrating Slack with the Slack API; built a CLI workflow engine enabling ticket state changes without code changes}
+    \item{Resolved HPC support tickets across software troubleshooting, job scheduling, and environment configuration on RHEL 8 systems}
+  \resumeItemListEnd
+
+\vspace{-3.50mm}
+
+\resumeSubheading
+  {iOS Developer}{College Station, TX}
+  {AKW Ventures}{May 2023 -- Present}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Built and maintained backend systems for ``College Football: Rapid Roster'' iOS app (Swift, JavaScript, CloudKit JS)}
+    \item{Scaled the app to thousands of active users and \$2{,}500 monthly recurring revenue}
+    \item{Developed a full-stack sports betting analytics platform that detects arbitrage, +EV, and middles opportunities}
+    \item{Designed cloud deployment on AWS (Lambda, SQS, RDS/Postgres, ECS/Fargate, ECR) with Docker + GitHub Actions CI/CD}
+    \item{Implemented a C++ datafeed pipeline, a Go REST API backend, and a SwiftUI frontend}
+  \resumeItemListEnd
+
+\vspace{-3.50mm}
+
+\resumeSubheading
+  {Software Engineer Intern}{Atlanta, GA}
+  {The Coca-Cola Company}{May 2024 -- Aug 2024}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Built a Vue.js + Flask web app for segmenting and analyzing 8{,}861 retail outlets using Python and Pandas}
+    \item{Developed a promotion recommendation algorithm generating 124{,}054 outlet-relevant promotions to confirm targeting and reduce manual analysis}
+    \item{Delivered an end-to-end analytics workflow that improved speed and consistency of sales planning decisions}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-6.5mm}
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Temporal Frequency Analysis on CPU, GPU, FPGA}{}
+      {Texas A\&M University capstone project done in collaboration with Sandia National Labs}{August 2024 - December 2024}
+      \vspace{-0.7mm}
+      \resumeItemListStart
+      \item{Optimized an existing temporal frequency analysis algorithm for CPU, GPU, and FPGA architectures}
+        \item{Won 3rd place in the Texas A\&M Engineering Project Showcase Fall 2024}
+\item{GPU implementation achieved 125x throughput improvement over the original FPGA implementation; improved FPGA throughput by 4.23x}
+\item{Used C++, Vitis HLS, CUDA, OpenMP, JavaScript, Express.js, React.js}
+\resumeItemListEnd
+\vspace{-3.50mm}
+
+\resumeSubheading
+{Push Battle AI}{}
+{Texas A\&M Datathon}{February 2024}
+\vspace{-0.7mm}
+\resumeItemListStart
+  \item{Developed a minimax implementation for the push battle board game, and used distributed computing (MPI) to create a massive database of opening moves}
+  \item{Won 2nd place out of 600 competitors}
+\resumeItemListEnd 
+\vspace{-3.50mm}
+
+\resumeSubHeadingListEnd
+\vspace{-4.75mm}
+
+\section{\textbf{Technical Skills}}
+\vspace{0.5mm}
+{
+\normalfont\small\selectfont
+
+\textbf{Languages:} C++, Python, Go, Java, Bash, Swift (SwiftUI), JavaScript, Scheme \\
+
+\textbf{HPC / Systems:} MPI (OpenMPI), OpenMP, CUDA, Slurm, YGM, FFTW, oneMKL, Vitis HLS, Linux (RHEL 8), Unix \\
+
+\textbf{Machine Learning / AI:} PyTorch, TensorFlow, Pandas, AutoGluon, LLM Inference, Prompt Engineering \\
+
+\textbf{Web / Backend:} Flask, FastAPI, Vue.js, React.js, Express.js, REST APIs, CloudKit JS, Ruby on Rails \\
+
+\textbf{Cloud / DevOps:} AWS (Lambda, SQS, RDS/Postgres, ECS, Fargate, ECR), Docker, Singularity, GitHub Actions, CI/CD \\
+
+\textbf{Databases:} PostgreSQL, DynamoDB, MongoDB \\
+
+\textbf{Tools:} Git, GitHub, Vim, GoogleTest \\
+
+\textbf{Methodologies:} Object-Oriented Programming (OOP), Functional Programming, Test-Driven Development (TDD), Agile
+}
+\vspace{-1mm}
+
+
+\end{document}
