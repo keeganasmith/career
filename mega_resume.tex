@@ -164,13 +164,16 @@
 \vspace{-0.25mm}
 \begin{minipage}[t]{0.48\textwidth}
 \begin{tabularx}{\linewidth}{@{}l r@{}}
-  \textbf{Texas A\&M University — College Station, TX} & \\[1pt]
-  \textit{Master of Science — Computer Science} & \textit{Jan 2025 — May 2026} \\
-  GPA: 3.875 & \\
-  \textit{Bachelor of Science — Computer Science} & \textit{Aug 2021 — Dec 2024} \\
-  GPA: 4.0 & \\[2pt]
+  \textbf{Texas A\&M University — College Station, TX} & \\[4pt]
+
+  \textit{Master of Science — Computer Science \hspace{2mm} | \hspace{2mm} GPA: 3.9}
+  & \textit{Jan 2025 — May 2026} \\[4pt]
+
+  \textit{Bachelor of Science — Computer Science \hspace{2mm} | \hspace{2mm} GPA: 4.0}
+  & \textit{Aug 2021 — Dec 2024} \\[2pt]
 \end{tabularx}
 \end{minipage}\hfill
+
 
 % ---- Full-width coursework table ----
 \vspace{2pt}
@@ -193,50 +196,53 @@
 
 \vspace{-3mm}
 
-%-----------EXPERIENCE-----------------
+% -----------WORK EXPERIENCE-----------------
 \section{\textbf{Work Experience}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {High Performance Computing (HPC) Software Engineer}{College Station, TX}
-      {Texas A\&M University High Performance Research Computing}{May 2023 - Present}
-      \vspace{-0.7mm}
-      \resumeItemListStart
-    \item {Benchmarked multi-core FFT and sparse matmul in C++ (\textbf{FFTW}, \textbf{oneMKL}) on Intel Optane configured as swap space} 
+\resumeSubHeadingListStart
 
-    \item {Helped researchers from Fermilab convert their FPGA software simulation Kubernetes workflows to Slurm scripts}
-    
-    \item {Developed an Open OnDemand interactive application for assisting researchers with programming tasks, utilizing local llm inference to do so. Local inference was distributed across multiple nodes and performed on 4 Intel GPU Max 1100s per node. (Python)}
-    
-    \item {Shipped an Open OnDemand interactive app to automate ML pipelines with \textbf{AutoGluon} on Slurm; standardized job specs and reduced setup time for researchers. (JavaScript / Vue.js / Python / FastAPI)}
-    \item {Automated the ticketing system by integrating with Slack using the Slack API. Created a robust workflow CLI to allow ticket workflow changes to be made without modifying code. (Python)}
-     \item {Resolved a wide range of HPC support tickets from researchers, including software troubleshooting, job scheduling issues, and environment configuration across diverse scientific domains}
-     \item {All development done on RHEL 8 machines}
-    \resumeItemListEnd
-    
-    \vspace{-3.50mm}
-    \resumeSubheading
-      {iOS Developer}{College Station, Texas}
-      {AKW Ventures}{May 2023 - present}
-      \vspace{-0.7mm}
-      \resumeItemListStart
-    	\item{Created and maintained backend for "College Football: Rapid Roster" iOS app (Swift / JavaScript / Cloudkit JS)}
-	    \item{Application supports thousands of active users with an average monthly recurring revenue of \$2500}
-      \item{Full Stack developer for iOS application for finding and analyzing odds across sports books. Automatically finds arbitrage, EV, and middles opportunities.}
-      \item{Application deployed using AWS lambda, AWS sqs, AWS RDS (Postgres), AWS Fargate, AWS Elastic Container Service, AWS Elastic Container Registry with Github actions for CI/CD, and Docker for containerization}
-      \item{Datafeed implemented with C++, backend webserver written in Go, frontend written in SwiftUI. Backend web server is a RESTful API}
-      \item{Backend Developer for TEC Call Auditor a tool which utilizes AI agents to grade phone calls. Utilized prompt engineering and agent orchestration to achieve 96\% accuracy in production.}
-      \resumeItemListEnd
-      \vspace{-3.50mm}
-    \resumeSubheading
-      {Software Engineer Intern}{Atlanta, Georgia}
-      {The Coca-Cola Company}{May 2024 - August 2024}
-      \vspace{-0.7mm}
-      \resumeItemListStart
-    	\item{Used Vue.js, Python, Flask, and Pandas to create a web application for segmenting and analyzing 8,861 outlets}
-	    \item{Developed an algorithm which provided 124,054 relevant promotions for outlets}
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
-    \vspace{-3.5mm}
+\resumeSubheading
+  {High Performance Computing (HPC) Software Engineer}{College Station, TX}
+  {Texas A\&M University High Performance Research Computing}{May 2023 -- Present}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Benchmarked multi-core FFT and sparse matrix multiplication (\textbf{FFTW}, \textbf{oneMKL}) in C++ on Intel Optane configured as swap; analyzed performance tradeoffs for memory-bound HPC workloads}
+    \item{Migrated Fermilab FPGA software simulation workflows from Kubernetes to Slurm, improving reproducibility and reducing researcher setup overhead}
+    \item{Built an Open OnDemand interactive app for distributed local LLM inference across multi-node jobs using Python (4 Intel GPU Max 1100s per node)}
+    \item{Shipped an Open OnDemand app to automate ML pipelines with \textbf{AutoGluon} on Slurm; standardized job specifications and reduced experiment setup time}
+    \item{Automated ticketing workflows by integrating Slack with the Slack API; built a CLI workflow engine enabling ticket state changes without code changes}
+    \item{Resolved HPC support tickets across software troubleshooting, job scheduling, and environment configuration for diverse scientific workloads}
+    \item{Developed on RHEL 8 systems across shared HPC infrastructure}
+  \resumeItemListEnd
+
+\vspace{-3.50mm}
+
+\resumeSubheading
+  {iOS Developer}{College Station, TX}
+  {AKW Ventures}{May 2023 -- Present}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Built and maintained backend systems for ``College Football: Rapid Roster'' iOS app (Swift, JavaScript, CloudKit JS)}
+    \item{Scaled the app to thousands of active users and \$2{,}500 monthly recurring revenue}
+    \item{Developed a full-stack sports betting analytics platform that detects arbitrage, +EV, and middles opportunities}
+    \item{Designed cloud deployment on AWS (Lambda, SQS, RDS/Postgres, ECS/Fargate, ECR) with Docker + GitHub Actions CI/CD}
+    \item{Implemented a C++ datafeed pipeline, a Go REST API backend, and a SwiftUI frontend}
+    \item{Built ``TEC Call Auditor'' using AI agents to grade phone calls; achieved 96\% production accuracy via prompt engineering and agent orchestration}
+  \resumeItemListEnd
+
+\vspace{-3.50mm}
+
+\resumeSubheading
+  {Software Engineer Intern}{Atlanta, GA}
+  {The Coca-Cola Company}{May 2024 -- Aug 2024}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Built a Vue.js + Flask web app for segmenting and analyzing 8{,}861 retail outlets using Python and Pandas}
+    \item{Developed a promotion recommendation algorithm generating 124{,}054 outlet-relevant promotions to confirm targeting and reduce manual analysis}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-3.5mm}
 
 \vspace{-6.2mm}
 \section{\textbf{Research}}
@@ -266,6 +272,7 @@
 	\item{Increased throughput of FPGA implementation by 4.23x}
 	\item{Used C++, Vitis HLS, CUDA, OpenMP, JavaScript, Express.js, React.js}
 \resumeItemListEnd
+\vspace{-3.50mm}
 
 \resumeSubheading
 {Push Battle AI}{}
@@ -275,6 +282,8 @@
   \item{Developed a minimax implementation for the push battle board game, and used distributed computing (MPI) to create a massive database of opening moves}
   \item{Won 2nd place out of 600 competitors}
 \resumeItemListEnd 
+\vspace{-3.50mm}
+
 \resumeSubheading
       {M-Height Approximation}{}
       {Texas A\&M University CSCE 636 (Deep Learning)}{May 2025}
@@ -285,20 +294,46 @@
 	\item{Achieved a log loss of 1.20}	
 	\item{Used PyTorch and OpenMPI}
 \resumeItemListEnd
+\vspace{-3.50mm}
+
+\resumeSubheading
+  {Twitter Huffman Compression Bot}{}
+  {Personal Project (Python, Tweepy, Twitter API, Heroku)}{April 2022}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Built a Twitter bot that compresses and decodes user messages using Huffman coding via mention-triggered commands}
+    \item{Integrated the Twitter API with Tweepy to monitor mentions, parse keywords (compress/decode/time), and publish automated replies}
+    \item{Implemented Huffman encoding/decoding with a custom tree construction pipeline (list-based priority structure) and prefix-code decoding}
+    \item{Added id-based deduplication to prevent duplicate replies and ensure consistent bot behavior across polling cycles}
+    \item{Deployed the service on Heroku for continuous execution and remote operation}
+  \resumeItemListEnd
+  \vspace{-3.50mm}
 
 \resumeSubHeadingListEnd
+\vspace{-3.50mm}
 
-
-\vspace{-10mm}
 \section{\textbf{Technical Skills}}
 \vspace{0.5mm}
+{
+\normalfont\small\selectfont
 
+\textbf{Languages:} C++, Python, Go, Java, Bash, Swift (SwiftUI), JavaScript, Scheme \\
 
-\textbf{Languages:} C++, Python, Java, Bash, Swift (SwiftUI) \\
-\textbf{HPC / Systems:} CUDA, OpenMP, MPI, Slurm, Linux (RHEL 8), Unix, Docker, Singularity, TCP/IP, UDP, HTTPS \\
-\textbf{Web / Tools:} Flask, Vue, React, Express, Git, GitHub, GitHub Actions, CI/CD, Vim, GoogleTest \\
-\textbf{Cloud / DB:} AWS (Lambda, EventBridge, Amplify, DynamoDB), MongoDB \\
-\textbf{Methodologies:} OOP, Functional Programming, REST APIs, Agile, Waterfall, Test Driven Development
+\textbf{HPC / Systems:} MPI (OpenMPI), OpenMP, CUDA, Slurm, YGM, FFTW, oneMKL, Vitis HLS, Linux (RHEL 8), Unix \\
+
+\textbf{Machine Learning / AI:} PyTorch, TensorFlow, Pandas, AutoGluon, LLM Inference, Prompt Engineering, Agent Orchestration \\
+
+\textbf{Web / Backend:} Flask, FastAPI, Vue.js, React.js, Express.js, REST APIs, CloudKit JS, Ruby on Rails \\
+
+\textbf{Cloud / DevOps:} AWS (Lambda, SQS, RDS/Postgres, ECS, Fargate, ECR), Docker, Singularity, GitHub Actions, CI/CD, Heroku \\
+
+\textbf{Databases:} PostgreSQL, DynamoDB, MongoDB \\
+
+\textbf{Tools:} Git, GitHub, Vim, GoogleTest, Tweepy, Twitter API \\
+
+\textbf{Methodologies:} Object-Oriented Programming (OOP), Functional Programming, Test-Driven Development (TDD), Agile
+}
 \vspace{-1mm}
+
 
 \end{document}

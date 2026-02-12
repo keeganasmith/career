@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  12 FEB 2026 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  12 FEB 2026 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1114,12 +1114,12 @@ LaTeX Font Info:    Font shape `T1/clm2j/bx/sc' in size <12> not available
 (Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 163.
 
 
-Overfull \hbox (79.39932pt too wide) in alignment at lines 172--172
+Overfull \hbox (94.58502pt too wide) in alignment at lines 174--174
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/clm2j/b/n' in size <9> not available
-(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 204.
+(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 208.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1150,11 +1150,11 @@ Package rerunfilecheck Info: File `mega_resume.out' has not changed.
 Here is how much of TeX's memory you used:
  33000 strings out of 474116
  663807 string characters out of 5743682
- 1965187 words of memory out of 5000000
+ 1966187 words of memory out of 5000000
  54774 multiletter control sequences out of 15000+600000
  620730 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,107p,413b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,107p,413b,791s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmb
 x10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></
@@ -1165,7 +1165,7 @@ exlive/2024/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2024
 /public/lm/lmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 mri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri8.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy5.pfb>
-Output written on mega_resume.pdf (2 pages, 276571 bytes).
+Output written on mega_resume.pdf (2 pages, 278186 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  101 compressed objects within 2 object streams
