@@ -1,0 +1,187 @@
+%-------------------------
+% AI/ML-focused Resume in Latex
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]\fontsize{10}{12}\selectfont}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\fontsize{10}{12}\selectfont\small}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+
+\newcommand{\name}{Keegan Smith}
+\newcommand{\phone}{(832) 773-8754}
+\newcommand{\emaila}{keeganasmith2003@gmail.com}
+\newcommand{\siteoneurl}{https://keegancodes.com}
+\newcommand{\siteonetext}{keegancodes.com}
+\newcommand{\sitetwourl}{https://github.com/keeganasmith}
+\newcommand{\sitetwotext}{github.com/keeganasmith}
+
+\setlength{\parskip}{0pt}\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{0.95}
+
+\begin{document}
+\fontsize{10}{12}\selectfont
+
+\begin{tabularx}{\linewidth}{L r}
+  \textbf{\Large \name} &
+  {\raisebox{0.0\height}{\footnotesize \faPhone}\ +1 \phone}\\
+  & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ \emaila} \\
+  & \raisebox{0.0\height}{\footnotesize \faGlobe}\ 
+    \href{\siteoneurl}{\siteonetext} \,|\, \href{\sitetwourl}{\sitetwotext} \\
+\end{tabularx}
+
+\section{\textbf{Education}}
+\vspace{-0.25mm}
+\begin{tabularx}{\linewidth}{@{}l r@{}}
+  \textbf{Texas A\&M University — College Station, TX} & \\
+  \textit{Master of Science — Computer Science \hspace{2mm} | \hspace{2mm} GPA: 3.9} & \textit{Jan 2025 — May 2026} \\
+  \textit{Bachelor of Science — Computer Science \hspace{2mm} | \hspace{2mm} GPA: 4.0} & \textit{Aug 2021 — Dec 2024} \\
+\end{tabularx}
+
+\vspace{1mm}
+\footnotesize\textbf{Selected Coursework:} Deep Learning (PyTorch, TensorFlow, Pandas), Machine Learning (PyTorch), Parallel Algorithms (C++, Open MPI, YGM), Quantum Algorithms, Computer Architecture, Operating Systems
+\normalsize
+
+\vspace{-2.5mm}
+\section{\textbf{Work Experience}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {High Performance Computing (HPC) Software Engineer}{College Station, TX}
+  {Texas A\&M University High Performance Research Computing}{May 2023 -- Present}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Built an Open OnDemand interactive app for distributed local LLM inference across multi-node jobs using Python (4 Intel GPU Max 1100s per node)}
+    \item{Shipped an Open OnDemand app to automate ML pipelines with \textbf{AutoGluon} on Slurm; standardized job specifications and reduced experiment setup time}
+    \item{Benchmarked multi-core FFT and sparse matrix multiplication (\textbf{FFTW}, \textbf{oneMKL}) in C++ on Intel Optane configured as swap; analyzed performance tradeoffs for memory-bound workloads}
+    \item{Migrated Fermilab FPGA software simulation workflows from Kubernetes to Slurm, improving reproducibility and reducing researcher setup overhead}
+  \resumeItemListEnd
+
+\vspace{-3.50mm}
+\resumeSubheading
+  {Software Engineer / iOS Developer}{College Station, TX}
+  {AKW Ventures}{May 2023 -- Present}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Built \textbf{TEC Call Auditor} using AI agents to grade phone calls; achieved 96\% production accuracy via prompt engineering and agent orchestration}
+    \item{Designed cloud deployment on \textbf{AWS} (Lambda, SQS, RDS/Postgres, ECS/Fargate, ECR) with Docker + GitHub Actions CI/CD}
+    \item{Developed a full-stack sports betting analytics platform that detects arbitrage, +EV, and middles opportunities}
+    \item{Implemented a C++ datafeed pipeline, a Go REST API backend, and a SwiftUI frontend; supported thousands of active users}
+  \resumeItemListEnd
+
+\vspace{-3.50mm}
+\resumeSubheading
+  {Software Engineer Intern}{Atlanta, GA}
+  {The Coca-Cola Company}{May 2024 -- Aug 2024}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Built a Vue.js + Flask web app for segmenting and analyzing 8{,}861 retail outlets using Python and Pandas}
+    \item{Developed a promotion recommendation algorithm generating 124{,}054 outlet-relevant promotions to improve targeting and reduce manual analysis}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-4.5mm}
+\section{\textbf{Research \& Projects}}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Parallel Bridge Finding Research}{College Station, TX}
+  {Texas A\&M University, under Dr. Roger Pearce}{Jan 2025 -- Present}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Developed and iterated on a novel parallel bridge finding algorithm (graph theory) in C++ with YGM/OpenMPI}
+    \item{Achieved near-linear scaling up to 768 cores (15.36x more cores than existing literature baselines)}
+  \resumeItemListEnd
+
+\vspace{-3.5mm}
+\resumeSubheading
+  {M-Height Approximation}{College Station, TX}
+  {Texas A\&M University CSCE 636 (Deep Learning)}{May 2025}
+  \vspace{-0.7mm}
+  \resumeItemListStart
+    \item{Created a large distributed training dataset (approximately 100 million M-height problems and solutions) using OpenMPI}
+    \item{Trained a dense neural network with 1 million parameters on multiple A30 GPUs and achieved a log loss of 1.20}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-4mm}
+\section{\textbf{Technical Skills}}
+\vspace{0.5mm}
+{\normalfont\small\selectfont
+\textbf{Languages:} C++, Python, Go, Java, Bash, Swift (SwiftUI), JavaScript \\
+\textbf{Machine Learning / AI:} PyTorch, TensorFlow, Pandas, AutoGluon, LLM Inference, Prompt Engineering, Agent Orchestration \\
+\textbf{Cloud / DevOps:} AWS (Lambda, SQS, RDS/Postgres, ECS, Fargate, ECR), Docker, GitHub Actions, CI/CD, Heroku \\
+\textbf{HPC / Systems:} MPI (OpenMPI), OpenMP, CUDA, Slurm, YGM, FFTW, oneMKL, Linux (RHEL 8), Unix \\
+\textbf{Web / Backend:} Flask, FastAPI, Vue.js, React.js, Express.js, REST APIs, CloudKit JS \\
+\textbf{Databases \& Tools:} PostgreSQL, DynamoDB, MongoDB, Git, GitHub, Vim, GoogleTest
+}
+
+\end{document}

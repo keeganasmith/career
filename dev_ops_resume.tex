@@ -83,7 +83,7 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-\vspace{0.5mm}\item
+\vspace{0.5mm}\item[]
     \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
         \textbf{#1} & \textit{\footnotesize{#4}} \\
         \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
@@ -189,12 +189,13 @@
   {Texas A\&M University High Performance Research Computing}{May 2023 -- Present}
   \vspace{-0.7mm}
   \resumeItemListStart
-    \item{Benchmarked multi-core FFT and sparse matrix multiplication (\textbf{FFTW}, \textbf{oneMKL}) in C++ on Intel Optane configured as swap; analyzed performance tradeoffs for memory-bound HPC workloads}
-    \item{Migrated Fermilab FPGA software simulation workflows from Kubernetes to Slurm, improving reproducibility and reducing researcher setup overhead}
-    \item{Built an Open OnDemand interactive app for distributed local LLM inference across multi-node jobs using Python (4 Intel GPU Max 1100s per node)}
-    \item{Shipped an Open OnDemand app to automate ML pipelines with \textbf{AutoGluon} on Slurm; standardized job specifications and reduced experiment setup time}
+    \item{Benchmarked multi-core FFT and sparse matrix multiplication (\textbf{FFTW}, \textbf{oneMKL}) in \textbf{C++} on Intel Optane configured as swap; analyzed performance tradeoffs for memory-bound HPC workloads}
+    \item{Migrated Fermilab \textbf{FPGA} software simulation workflows from \textbf{Kubernetes} to Slurm, improving reproducibility and reducing researcher setup overhead}
+    \item{Co-authored peer-reviewed publication resulting from Fermilab collaboration: \textit{“wa-hls4ml: A Benchmark and Surrogate Models for hls4ml Resource and Latency Estimation”}, arXiv:2511.05615 (2025)}
+    \item{Built an Open OnDemand interactive app for distributed local \textbf{LLM} inference across multi-node jobs using \textbf{Python} (4 Intel GPU Max 1100s per node)}
+    \item{Shipped an Open OnDemand app to automate ML pipelines with AutoGluon on Slurm; standardized job specifications and reduced experiment setup time}
     \item{Automated ticketing workflows by integrating Slack with the Slack API; built a CLI workflow engine enabling ticket state changes without code changes}
-    \item{Resolved HPC support tickets across software troubleshooting, job scheduling, and environment configuration on RHEL 8 systems}
+    \item{Resolved HPC support tickets across software troubleshooting, job scheduling, and environment configuration on \textbf{Linux} (\textbf{RHEL} 8) systems}
   \resumeItemListEnd
 
 \vspace{-3.50mm}
@@ -206,9 +207,9 @@
   \resumeItemListStart
     \item{Built and maintained backend systems for ``College Football: Rapid Roster'' iOS app (Swift, JavaScript, CloudKit JS)}
     \item{Scaled the app to thousands of active users and \$2{,}500 monthly recurring revenue}
-    \item{Developed a full-stack sports betting analytics platform that detects arbitrage, +EV, and middles opportunities}
-    \item{Designed cloud deployment on AWS (Lambda, SQS, RDS/Postgres, ECS/Fargate, ECR) with Docker + GitHub Actions CI/CD}
-    \item{Implemented a C++ datafeed pipeline, a Go REST API backend, and a SwiftUI frontend}
+    \item{Developing a full-stack sports betting analytics platform that detects arbitrage, +EV, and middles opportunities}
+    \item{Designed cloud deployment on \textbf{AWS} (Lambda, SQS, RDS/Postgres, ECS/Fargate, ECR) with \textbf{Docker} + GitHub Actions CI/CD}
+    \item{Implemented a \textbf{C++} datafeed pipeline, a \textbf{Go REST API} backend, and a \textbf{SwiftUI} frontend}
   \resumeItemListEnd
 
 \vspace{-3.50mm}
@@ -218,13 +219,25 @@
   {The Coca-Cola Company}{May 2024 -- Aug 2024}
   \vspace{-0.7mm}
   \resumeItemListStart
-    \item{Built a Vue.js + Flask web app for segmenting and analyzing 8{,}861 retail outlets using Python and Pandas}
+    \item{Built a Vue.js + Flask web app for segmenting and analyzing 8{,}861 retail outlets using \textbf{Python} and \textbf{Pandas}}
     \item{Developed a promotion recommendation algorithm generating 124{,}054 outlet-relevant promotions to confirm targeting and reduce manual analysis}
     \item{Delivered an end-to-end analytics workflow that improved speed and consistency of sales planning decisions}
   \resumeItemListEnd
-
 \resumeSubHeadingListEnd
-
+\vspace{-6.5mm}
+\section{\textbf{Research}}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Parallel Bridge Finding}{}
+      {Texas A\&M University, under Dr. Roger Pearce}{January 2025 - Present}
+      \vspace{-0.7mm}
+      \resumeItemListStart
+      \item{Developed and iterated upon a novel parallel bridge finding algorithm (graph theory)}
+      \item{Achieved near linear scaling up to 768 cores - 15.36 times as many cores as the current literature supports}
+      \item{Distributed computing on Lawrence Livermore National Labs systems, notably Dane}
+      \item{Implemented in \textbf{C++} using the YGM library (built on \textbf{OpenMPI})}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 \vspace{-6.5mm}
 \section{\textbf{Projects}}
 \resumeSubHeadingListStart
@@ -238,20 +251,9 @@
 \item{GPU implementation achieved 125x throughput improvement over the original FPGA implementation; improved FPGA throughput by 4.23x}
 \item{Used C++, Vitis HLS, CUDA, OpenMP, JavaScript, Express.js, React.js}
 \resumeItemListEnd
-\vspace{-3.50mm}
-
-\resumeSubheading
-{Push Battle AI}{}
-{Texas A\&M Datathon}{February 2024}
-\vspace{-0.7mm}
-\resumeItemListStart
-  \item{Developed a minimax implementation for the push battle board game, and used distributed computing (MPI) to create a massive database of opening moves}
-  \item{Won 2nd place out of 600 competitors}
-\resumeItemListEnd 
-\vspace{-3.50mm}
 
 \resumeSubHeadingListEnd
-\vspace{-4.75mm}
+\vspace{-6.50mm}
 
 \section{\textbf{Technical Skills}}
 \vspace{0.5mm}
