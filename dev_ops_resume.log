@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  13 FEB 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  19 FEB 2026 14:55
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **dev_ops_resume.tex
 (./dev_ops_resume.tex
@@ -1114,15 +1115,15 @@ LaTeX Font Info:    Font shape `T1/clm2j/bx/sc' in size <12> not available
 (Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 163.
 
 
-Overfull \hbox (90.48802pt too wide) in alignment at lines 174--174
+Overfull \hbox (90.48802pt too wide) in alignment at lines 173--173
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/clm2j/b/n' in size <8> not available
-(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 180.
+(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 179.
 
 LaTeX Font Info:    Font shape `T1/clm2j/b/n' in size <9> not available
-(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 192.
+(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 191.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1162,7 +1163,7 @@ exlive/2024/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2024
 /public/lm/lmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 mri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri8.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri9.pfb>
-Output written on dev_ops_resume.pdf (1 page, 288371 bytes).
+Output written on dev_ops_resume.pdf (1 page, 288228 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
